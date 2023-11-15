@@ -13,5 +13,7 @@ This idea was originated in a course work from the University of Oxford.
 In command line:
 ```
 scalac lockfreeq.scala
-scalac 
+scalac test.scala
+
+scala SimpleQueueTest --lockFree --reps 1000 --iters 1000 -p 5
 ```
